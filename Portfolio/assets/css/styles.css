@@ -1,0 +1,159 @@
+html, body{
+	font-size:16px;
+	color: #dfdfdf;
+	background-color: #09232c; 
+	scroll-behavior: smooth;
+}
+
+a.nav-item {
+	color: #dfdfdf;
+	transition: 0.2s;
+}
+
+a.nav-item:hover {
+	font-size: 110%;
+	color: #fff;
+	background-color: black;
+}
+
+.void-background {
+	background-color:rgba(0, 0, 0, 0.5); 
+}
+
+.avatar {
+	margin: 0 auto 1rem auto;
+	height: auto;
+	width: 220px;
+	transition: 0.3s;
+	border-radius: 50%;
+}
+
+.avatar:hover{
+	margin: 0 auto 1rem auto;
+	width: 250px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+.intro {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.intro-description{
+	padding-top: 1rem;
+}
+
+section{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.section-1 {
+	background: #052a38;
+}
+
+.section-2 {
+	background-color: #04202b;
+}
+
+.section-3 {
+	background-color: #052a38;
+}
+
+.section-4 {
+	background-color: #04202b;
+
+}
+
+.skills-figure {
+	margin: 0 auto 1rem auto;
+	height: 160px;
+	width: 300px;
+	transition: 0.3s;
+}
+
+.skills-figure:hover {
+	margin: 0 auto 1rem auto;
+	height: 170px;
+	width: 320px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+.education-figure {
+	margin: 0 auto 1rem auto;
+	height: 160px;
+	width: 300px;
+	transition: 0.3s;
+}
+
+.education-figure:hover {
+	margin: 0 auto 1rem auto;
+	height: 170px;
+	width: 320px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+.hobbies-figure {
+	margin: 0 auto 1rem auto;
+	height: 160px;
+	width: 300px;
+	transition: 0.3s;
+}
+
+.hobbies-figure:hover {
+	margin: 0 auto 1rem auto;
+	height: 170px;
+	width: 320px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+.contact-img{
+	margin: 0 auto 1rem auto;
+	height: auto;
+	width: 120px;
+	transition: 0.3s;
+}
+
+.contact-img:hover{
+	margin: 0 auto 1rem auto;
+	width: 150px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+input[type=text], input[type=email], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	background-color: #09232c;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #000000;
+  }
+
+.box {
+	background-color: transparent;
+	border: 2px solid rgb(7, 59, 79);
+}
+
+.title {
+	color: #fff;
+	text-align: left;
+	margin-bottom: 2rem;
+}
