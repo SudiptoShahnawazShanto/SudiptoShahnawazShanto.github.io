@@ -3866,7 +3866,7 @@ input, select, textarea {
 			}
 
 			#main > .posts > * {
-				padding: 1rem;
+				padding: 3rem;
 				width: 50%;
 			}
 
@@ -3902,7 +3902,7 @@ input, select, textarea {
 				}
 
 				#main > .posts > * {
-					padding: 1rem;
+					padding: 2rem;
 					width: 50%;
 				}
 
