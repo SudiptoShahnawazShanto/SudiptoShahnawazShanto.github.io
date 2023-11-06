@@ -2626,6 +2626,12 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		.image.fit.featured{
+			display: block;
+			margin: 0rem 3rem;
+			width: 90%;
+		}
+
 			.image.fit:first-child {
 				margin-top: 0;
 			}
@@ -4702,11 +4708,22 @@ input, select, textarea {
 
 	}
 
+/* 	FEATURE
 .hoverable {
 	width: 80%;
 }
 
 .hoverable:hover {
 	width: 21%;
+	transition: ease;
+}
+*/
+
+.hoverable {
+	width: 100%;
+}
+
+.hoverable:hover {
+	width: 26%;
 	transition: ease;
 }
